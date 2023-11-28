@@ -57,7 +57,7 @@
 
 <nav class="menu" role="navigation">
     <div class="menu-item"><a href="index.php">Home</a></div>
-    <div class="menu-item"><a href="about.php">About Us</a></div>
+    <div class="menu-item"><a href="./formulaire/aboutus.php">About Us</a></div>
     <div class="menu-item" aria-haspopup="true">
         <a href="#">Client</a>
         <div class="sub-menu" aria-label="submenu">
@@ -85,7 +85,7 @@
             <div class="menu-item"><a href="shirt.php">Shirts</a></div>
         </div>
     </div>
-    <div class="menu-item"><a href="contact.php">Contact</a></div>
+    <div class="menu-item"><a href="contact.php">Contact Us</a></div>
 </nav>
 
 </body>
