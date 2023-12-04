@@ -21,7 +21,18 @@ require_once("../formulaire/address.php");?>
         <label for="city">city:</label>
         <input type="text" id="city" name="city" required /><br>
         <label for="province">province:</label>
-        <input type="province" id="province" name="province" required /><br>
+        <select name="province">
+            <option value="Alberta">Alberta</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+        </select>
         <label for="zip_code">zip_code:</label>
         <input type="text" id="zip_code" name="zip_code" required /><br>
         <label for="country">country:</label>
