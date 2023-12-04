@@ -95,7 +95,8 @@ function removeFromCart($productId) {
         ?>
         <form action="checkout.php" method="post">
     <input type="hidden" name="process_payment" value="1">
-    <input type="submit" class="btn btn-primary" value="Pay Now">
+    <input type="submit" class="btn btn-primary" value="Pay Now"><br>
+    <a href="your_form_page.php">Add another product</a>
     </form>
     </div>
     

@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION['user_name'] = $db_user_name;
 
                 // Redirect to the shoppingCart
-                header("Location:your_form_page.php");
+                header("Location:address.php");
                 exit();
             } else {
                 echo "Invalid username or password";
