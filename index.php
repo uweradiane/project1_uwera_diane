@@ -58,20 +58,16 @@
 <nav class="menu" role="navigation">
     <div class="menu-item"><a href="index.php">Home</a></div>
     <div class="menu-item"><a href="./formulaire/aboutus.php">About Us</a></div>
-    <div class="menu-item" aria-haspopup="true">
-        <a href="#">Client</a>
+    <div class="menu-item" aria-haspopup="true"><a href="./formulaire/login.php">Client</a>
         <div class="sub-menu" aria-label="submenu">
-            <div class="menu-item"><a href="login.php">Login</a></div>
-            <div class="menu-item"><a href="signup.php">SignUp</a></div>
+            <div class="menu-item"><a href="./formulaire/login.php">Login</a></div>
         
         </div>
     </div>
     <div class="menu-item" aria-haspopup="true">
-        <a href="#">Admin</a>
+        <a href="./formulaire/login.php">Admin</a>
         <div class="sub-menu" aria-label="submenu">
-            <div class="menu-item"><a href="login.php">Login</a></div>
-            <div class="menu-item"><a href="signup.php">SignUp</a></div>
-        
+            <div class="menu-item"><a href="./formulaire/login.php">Login</a></div>
         </div>
     </div>
     <div class="menu-item" aria-haspopup="true">
@@ -87,6 +83,9 @@
     </div>
     <div class="menu-item"><a href="contact.php">Contact Us</a></div>
 </nav>
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> Our Website. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
