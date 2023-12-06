@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <style>
+        h1{
+            color: green;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color:GREY;
+            background-image:url("IMG.jpg");
         }
 
         nav.menu {
@@ -51,6 +55,9 @@
             display: block;
             white-space: nowrap;
         }
+        img{
+            font-size:1;
+        }
     </style>
 </head>
 <body>
@@ -81,10 +88,14 @@
             <div class="menu-item"><a href="shirt.php">Shirts</a></div>
         </div>
     </div>
-    <div class="menu-item"><a href="contact.php">Contact Us</a></div>
+    <div class="menu-item"><a href="./formulaire/contactus.php">Contact Us</a></div>
 </nav>
+
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> Our Website. All rights reserved.</p>
+    <marquee>
+    <h1><i>Welcome to Diane Fashion Desingn<i></h1>
+    </marquee>
+    <p>&copy; <?php echo date("Y"); ?> Our shop. All rights reserved.</p>
 </footer>
 
 </body>

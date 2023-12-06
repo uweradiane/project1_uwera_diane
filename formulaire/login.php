@@ -10,21 +10,32 @@
 <style>
     body {
       background-color: grey;
+      margin:50px 0px;
+      padding:0px;
+      text-align:center;
+      align:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-image:url("IMG.jpg");
     }
 
-    .signup-table {
-      margin-top: 50px;
-      width: 100%;
+    label,input{
+      display:block;
+      width:150px;
+      float:left;
+      margin-bottom:10px;
+    }
+    label{
+      text-align:right;
+      width:95px;
+      padding-right:20;
     }
 
-    .signup-form {
-      background-color: grey;
-      padding: 20px;
-      border-radius: 5px;
+    br {
+      clear:left;
     }
-
-    .form-title {
-      text-align: center;
+    form{
+      display:inline-block;
     }
   </style>
     <form method="POST" action="login_process.php">

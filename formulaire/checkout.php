@@ -28,4 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["process_payment"])) {
         unset($_SESSION['cart']);
     }
 }
-?>
+?><br>
+<br>
+<br>
+<a href="login.php">Logout</a>
