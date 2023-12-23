@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +15,7 @@
             padding: 0;
             background-color:GREY;
             background-image:url("IMG.jpg");
+            background-repeat: 1;
         }
 
         nav.menu {
@@ -70,6 +72,7 @@
             <div class="menu-item"><a href="./formulaire/login.php">Login</a></div>
         
         </div>
+    
     </div>
     <div class="menu-item" aria-haspopup="true">
         <a href="./formulaire/login.php">Admin</a>

@@ -1,5 +1,13 @@
 <?php
-require_once("../formulaire/address.php");?>
+require_once("../formulaire/address.php");
+
+$name = '';
+session_start();
+
+// prendre l'id de l'utilisateur authentifié et aller chercher ses informations dans la DB
+// une fois l'utilisateur récupéré mettre son nom dans $name = $user["user_name"]
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,6 +39,8 @@ require_once("../formulaire/address.php");?>
     }
   </style>
     <div class="container">
+
+    <p>Bonjour <?php echo $name?></p>
         <h2>Add Address</h2>
     
         <form action="addressDb.php" method="post">

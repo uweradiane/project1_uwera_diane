@@ -11,6 +11,7 @@
 
     <div class="container">
         <div class="row text-center py-5">
+            .
             <?php
             // Start a PHP session to store cart data
             session_start();
